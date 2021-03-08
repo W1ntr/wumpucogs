@@ -31,7 +31,7 @@ class RndStatus(commands.Cog):
         default_global = {
             "botstats": False,
             "delay": 300,
-            "statuses": ["her Turn()", "Tomb Raider II", "Transistor", "NEO Scavenger", "Python", "with your heart.",],
+            "statuses": [">invite | {total_users}", ">help | {total_users}", "Assisting guilds | {total_users}", "Discord | {total_users}", "in the web | {total_users}", "with websockets | {total_users}",],
             "streamer": "rndstatusstreamer",
             "type": 0,
             "status": 0,
