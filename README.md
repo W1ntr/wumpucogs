@@ -1,3 +1,3 @@
 # wumpucogs
 
-### Cogs from Akiaternia, modified.
+### some stuff from Akiaternia
