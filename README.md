@@ -1,3 +1,3 @@
 # wumpucogs
 
-### some stuff from Akiaternia
+### some stuff from various cog creators. I mainly put them here for testing.
