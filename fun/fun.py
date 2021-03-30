@@ -85,15 +85,15 @@ class Fun(commands.Cog):
         return react_me
 
 @commands.command()
-    async def vowelreplace(self, ctx: commands.Context, replace: str, *, msg: str) -> None:
-        """Replaces all vowels in a word with a letter."""
-        result = ""
-        for letter in msg:
-            result += replace if letter.lower() in "aeiou" else letter
-        if len(result) > 2000:
-          await ctx.send("Message is too long to send!")
-        else
-          await ctx.send(result)
+async def vowelreplace(self, ctx: commands.Context, replace: str, *, msg: str) -> None:
+    """Replaces all vowels in a word with a letter."""
+    result = ""
+    for letter in msg:
+        result += replace if letter.lower() in "aeiou" else letter
+    if len(result) > 2000:
+        await ctx.send("Message is too long to send!")
+    else
+        await ctx.send(result)
 
     @commands.command()
     async def textflip(self, ctx: commands.Context, *, msg: str) -> None:
