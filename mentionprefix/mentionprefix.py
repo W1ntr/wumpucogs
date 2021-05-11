@@ -136,7 +136,7 @@ class MentionPrefix(commands.Cog):
                 return await destination.send(
                     _(
                         "Hello? 👋 {verb} the following:\n{p_list}\n"
-                        "Try `{p}{command}` to see all of my cool stuff."
+                        "Try `{p}{command}` to see all of my features."
                     ).format(
                         p_list=prefixes_string,
                         p=single_prefix,
