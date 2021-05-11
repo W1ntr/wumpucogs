@@ -128,14 +128,14 @@ class MentionPrefix(commands.Cog):
             ctx: Context = Context(prefix=None, view=view, bot=self.bot, message=message)
             if not await help_command.can_run(ctx):
                 return await destination.send(
-                    _("Hello? I'm Light, 👋 {verb} the following:\n{p_list}").format(
+                    _("Hello? 👋 {verb} the following:\n{p_list}").format(
                         p_list=prefixes_string, verb=verb
                     )
                 )
             else:
                 return await destination.send(
                     _(
-                        "Hello? I'm Light, 👋 {verb} the following:\n{p_list}\n"
+                        "Hello? 👋 {verb} the following:\n{p_list}\n"
                         "Try `{p}{command}` to see all of my cool stuff."
                     ).format(
                         p_list=prefixes_string,
@@ -146,7 +146,7 @@ class MentionPrefix(commands.Cog):
                 )
         else:
             return await destination.send(
-                _("Hello? I'm Light, 👋 {verb} the following:\n{p_list}").format(
+                _("Hello? 👋 {verb} the following:\n{p_list}").format(
                     p_list=prefixes_string, verb=verb
                 )
             )
